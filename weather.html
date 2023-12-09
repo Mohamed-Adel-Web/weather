@@ -10,14 +10,14 @@
 <link rel="stylesheet" href="./weather.css">
 </head>
 <body>
-<div class="weather-card text-center relative  w-6/12 mx-auto my-20 transition rounded-lg p-5 ">
+<div class="weather-card text-center relative  lg:w-6/12 sm:w-8/12 mx-auto my-20 transition rounded-lg p-5 ">
     <div class="wrong-city font-bold text-3xl  w-full  text-white">
 oops! City name is wrong
 <img src="./images/error-6482984.svg"  class=" object-contain block  h-28 w-56 m-auto" alt="">
     </div>
     <div class="container ">
 <div class="city-search flex align-middle">
-<input type="text"  placeholder="Enter City Name" class="text-black w-5/6 focus:outline-none px-3 py-2 rounded-full" >
+<input type="text"  placeholder="Enter City Name" class="text-black text-sm w-5/6 focus:outline-none px-3 py-2 rounded-full" >
 <div class="search  w-1/6  my-auto ">
 <i class="fa-solid fa-magnifying-glass cursor-pointer w-full"></i>
 </div>
@@ -26,11 +26,11 @@ oops! City name is wrong
 <div class="weather-photo  mt-8">
 <img src="./images/clear.png" loading="lazy" class=" object-contain  h-28 w-56 m-auto" alt="">
 </div>
-<div class="city-temperature font-bold text-5xl">
+<div class="city-temperature font-bold sm:text-3xl lg:text-5xl">
 </div>
 <div class="city-name capitalize mt-2 font-bold text-3xl">
 </div>
-<div class="weather-conditions flex text-lg font-bold mt-7  justify-between">
+<div class="weather-conditions flex  font-bold mt-7  justify-between">
 <div class="humidity ">
 <div class="humidity-title text-sm">Humidity</div>
 <div class="humidity-info  flex">
