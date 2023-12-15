@@ -1,24 +1,25 @@
-body::before{
-background-image: url(./images/milky-way-5295160_1920.jpg);
-    content: "";
-    background-size: cover;
-width: 100%;
-height: 100%;
-position: absolute;
-top: 0;
-left: 0;
-z-index: -1;
-filter: blur(2px);
-opacity: 0.9;
+/** @format */
+
+body::before {
+  background-image: url(./images/milky-way-5295160_1920.jpg);
+  content: "";
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
-.weather-card{
-    background-image: url(./images/milky-way-5295160_1920.jpg);
-    background-size: cover;
-color: white;
+.weather-card {
+  background: transparent;
+  background-size: cover;
+  color: white;
+  backdrop-filter: blur(7px);
 }
-.wrong-city{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.wrong-city {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
